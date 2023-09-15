@@ -13,20 +13,19 @@ In diesem Übungsblatt erstellen wir eine WebGIS-Anwendung, die es Benutzern erm
 - **URL:** [http://osmatrix.geog.uni-heidelberg.de:8080/geoserver-2.18/mauer/wms](http://osmatrix.geog.uni-heidelberg.de:8080/geoserver-2.18/mauer/wms)
 - **Layername:** mauer:ub4_baugebiet
 
-### c) Projektion WGS84/UTM 32N (6 P)
-- **EPSG Code:** [Fügen Sie den EPSG-Code ein]
-- **proj4js Definitionsstring:** [Fügen Sie den proj4js Definitionsstring ein]
-- **Zusatzbibliothek proj4js:** Geben Sie an, wie Sie die proj4js-Bibliothek in Ihre Webseite eingebunden und die Projektion registriert haben.
-- **Konfiguration des Map-View:** Stellen Sie sicher, dass Zoom und Zentrum auf das Baugebiet ausgerichtet sind.
+### c) Die Bürgerkarte soll in der Projektion WGS84/UTM 32N dargestellt werden. Dazu benötigen Sie:
+- den richtigen EPSG Code (1 P)
+- den proj4js Definitionsstring z.B. von https://epsg.io (1 P)
+- binden Sie die Zusatzbibliothek proj4js in ihre Webseite ein und registrieren Sie die oben genannte Projektion (3 P)
+- Konfigurieren Sie ihren Map-View so, dass zoom und center entsprechend auf das Baugebiet zeigen (3 P)
 
 ## 2) Interaktionslayer (10 Punkte)
 
 Um den Bürgern eine Interaktion mit der Karte zu ermöglichen, benötigen wir einen Vektorlayer, der über eine WFS URL eingebunden wird.
 
-### a) Einbinden des VectorLayers (WFS mit GeoJSON Format) (5 P)
-- **Layername:** mauer:ub4_bebauung
+### a) Binden Sie folgenden Layer vom Geoserver als VectorLayer (WFS mit GeoJSON Format) ein: (5 P)
+- mauer:ub4_bebauung
 
-### b) Hinzufügen von OpenLayers Interaktionen (5 P)
-- Fügen Sie Ihrer Karte zwei OpenLayers Interaction hinzu, um einzelne Feature des Layers "mauer:ub4_bebauung" auszuwählen (select) und zu verschieben (translate).
+### b) Fügen Sie Ihrer Karte zwei OpenLayers Interaction hinzu, so dass Sie einzelne Feature des Layers
+mauer:ub4_bebauung „selektieren“ (select) und „verschieben“ (translate) können. (5 P)
 
-Bitte beachten Sie, dass die Punktevergabe den jeweiligen Aufgaben entspricht.
