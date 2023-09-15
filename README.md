@@ -26,6 +26,5 @@ Um den Bürgern eine Interaktion mit der Karte zu ermöglichen, benötigen wir e
 ### a) Binden Sie folgenden Layer vom Geoserver als VectorLayer (WFS mit GeoJSON Format) ein: (5 P)
 - mauer:ub4_bebauung
 
-### b) Fügen Sie Ihrer Karte zwei OpenLayers Interaction hinzu, so dass Sie einzelne Feature des Layers
-mauer:ub4_bebauung „selektieren“ (select) und „verschieben“ (translate) können. (5 P)
+### b) Fügen Sie Ihrer Karte zwei OpenLayers Interaction hinzu, so dass Sie einzelne Feature des Layers mauer:ub4_bebauung „selektieren“ (select) und „verschieben“ (translate) können. (5 P)
 
